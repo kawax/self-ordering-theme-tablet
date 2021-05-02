@@ -1,0 +1,35 @@
+{
+    "name": "revolution/self-ordering-theme-tablet",
+    "description": "Self Ordering System : Tablet theme",
+    "keywords": [
+        "laravel",
+        "self-order",
+        "theme"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4||^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Revolution\\Ordering\\Theme\\Tablet\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "kawax",
+            "email": "kawaxbiz@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Revolution\\Ordering\\Theme\\Tablet\\OrderingTabletServiceProvider"
+            ]
+        }
+    }
+}
