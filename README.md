@@ -12,6 +12,18 @@ https://github.com/kawax/self-ordering
 composer require revolution/self-ordering-theme-tablet
 ```
 
+`tailwind.config.js`の`purge`に追加。
+```js
+    purge: [
+        //
+        './vendor/revolution/self-ordering-theme-tablet/resources/views/**/*.blade.php',
+    ],
+```
+
+```
+npm run prod
+```
+
 インストールするだけでテーマが有効なので使用を止めるにはアンインストールしてください。
 
 ## カスタマイズ
