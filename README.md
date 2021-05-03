@@ -28,7 +28,7 @@ npm run prod
 
 ## カスタマイズ
 ```
-php artisan vendor:publish --tag=ordering-tablet-views
+php artisan vendor:publish --tag=ordering-theme-tablet
 ```
 
 ## LICENCE

@@ -1,5 +1,5 @@
 <div class="mx-auto pb-40">
-    @include('ordering-tablet::order.header')
+    @include('ordering-theme::order.header')
 
     <div class="mx-auto max-w-5xl">
 

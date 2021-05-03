@@ -2,7 +2,7 @@
 
 <div {{ $attributes->merge(['class' => 'm-3 p-3 rounded shadow-lg max-w-sm flex flex-wrap flex-col justify-between dark:bg-gray-800']) }}>
     <div class="mx-auto">
-        <x-ordering-tablet::image :src="Arr::get($item, 'image')"></x-ordering-tablet::image>
+        <x-ordering-theme::image :src="Arr::get($item, 'image')"></x-ordering-theme::image>
     </div>
     <div>
         <h4 class="font-bold">{{ Arr::get($item, 'name') }}</h4>

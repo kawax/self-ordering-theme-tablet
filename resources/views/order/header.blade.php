@@ -7,6 +7,6 @@
     <span class="text-2xl">
         {{ __('テーブル : ') }}{{ session('table') }}
     </span>
-    {{--    @include('ordering-tablet::order.info')--}}
-    @include('ordering-tablet::order.history')
+    {{--    @include('ordering-theme::order.info')--}}
+    @include('ordering-theme::order.history')
 </header>
