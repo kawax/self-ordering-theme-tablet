@@ -21,7 +21,7 @@ composer require revolution/self-ordering-theme-tablet
 ```
 
 ```
-npm run prod
+npm run build
 ```
 
 インストールするだけでテーマが有効なので使用を止めるにはアンインストールしてください。
